@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #model{
+            width: 100%;
+            height: 629px;
+        }
+        #row{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 100px;
+            margin: auto;
+            
+
+        }
+        .mod-text{
+            font-weight: 400;
+            font-size: 14px;
+        }
+        .model-text{
+            width: 480px;
+            position: relative;
+            top: 60px;
+
+        }
+        .dull-text{
+            font-size: smaller;
+            color: rgb(163, 163, 163);
+        }
+        .model-head{
+            font-size: 0.9cm;
+        }
+        .model-text{
+            line-height: 1.8;
+        }
+        .lineshift{
+            padding: 20px 0px 20px 50px;
+        }
+        .mod-image{
+            width: 500px;
+            height: 630px;
+        }
+        .food-src{
+            border-radius: 100%;
+            height: 110px;
+            width: 110px;
+        }
+        .foodcontainer{
+            margin-top: 50px;
+            height: 630px;
+        }
+        .menutext{
+            text-align: center;
+            margin-bottom: 100px;
+
+        }
+        .fooditem{
+            display: flex;
+            padding-bottom: 20px;
+        }
+        .food-desc{
+            width: 350px;
+            font-size: 13px;
+        }
+        .food-text{
+            margin-top: 5px;
+            margin-left: 20px;
+            line-height: 1.4;
+        }
+        .food-head{
+            font-family: 'Playfair Display', serif;
+            font-size: larger;
+        }
+        .flexfood{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+        strong{
+            margin-left: 35px;
+            color: rgb(255, 195, 85);
+            font-size: 18px;
+        }
+        .menu-head{
+            margin-top: -80px;
+            margin-bottom: 30px;
+            font-size: 1cm;
+        }
+        @media (max-width : 765px){
+        .mod-image{
+            height: 500px;
+            margin-bottom: -130px;
+        }
+        .mod-text{
+            margin-left: 50px;
+            padding: 10px;
+            text-align: left;
+        }
+        .mod-text{
+            font-size: 12px;
+        }
+        .model-head{
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .food-desc{
+            width: 250px;
+        }
+        .food-src{
+            padding: 10px;
+        }
+        .wrapper{
+            margin-bottom: -50px;
+        }
+        .flexfood{
+            padding: 10px;
+        }
+    }
+    @media (max-width: 1005px)  {
+       .flexfood{
+           padding-left: 40px;
+       }
+       .food-desc{
+           width: 150px;
+       }
+       .food-head{
+           width: 150px;
+       }
+        
+
+    }
+        
+       
+    </style>
+</head>
+<body>
+    <!-- <div id="model"> -->
+        <div id="row">
+        <section class="model-image">
+            <img class="mod-image" src="asset/model.jpg" alt="">
+        </section>
+        <section class="model-text">
+            <p class="dull-text mod-text">Our Restaurants</p>
+            <p class="model-head mod-text">We Are Food Lover</p>
+            <p class="lineOne mod-text">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times.</p>
+            <p class="lineshift mod-text">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+            <p class="lineOne mod-text">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
+        </section>
+    
+
+    <div class="foodcontainer">
+
+        <section class="menutext">
+            <h1 class="menu-head">Our Menu</h1>
+        </section>
+    <section class="flexfood">
+        <section class="wrapper">
+        <section class="fooditem">
+            <section class="image">
+                <img src="asset/cake.jpg" class="food-src">
+            </section>
+            <section class="food-text">
+                <p class="food-head">Grilled Beef with potatoes<strong>.....$20.00</strong></p>
+                <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+            </section>
+        </section>
+
+        <section class="fooditem">
+            <section class="image">
+                <img src="asset/roll.jpg" class="food-src">
+            </section>
+            <section class="food-text">
+                <p class="food-head">Grilled Beef with potatoes<strong>........$29.00</strong></p>
+                <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+            </section>
+        </section>
+
+        <section class="fooditem">
+            <section class="image">
+                <img src="asset/beef_pan.jpg" class="food-src">
+            </section>
+            <section class="food-text">
+                <p class="food-head">Grilled Beef with potatoes<strong>.....$20.00</strong></p>
+                <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+            </section>
+        </section>
+
+        <section class="fooditem">
+            <section class="image">
+                <img src="asset/redbeef.jpg" class="food-src">
+            </section>
+            <section class="food-text">
+                <p class="food-head">Grilled Beef with potatoes<strong>.....$20.00</strong></p>
+                <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+            </section>
+        </section>
+
+        </section>
+
+        <section class="wrapper2">
+            <section class="fooditem">
+                <section class="image">
+                    <img src="asset/green_beef.jpg" class="food-src">
+                </section>
+                <section class="food-text">
+                    <p class="food-head">Grilled Beef with potatoes<strong>.....$49.40</strong></p>
+                    <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+                </section>
+            </section>
+
+            <section class="fooditem">
+                <section class="image">
+                    <img src="asset/biryani.jpg" class="food-src">
+                </section>
+                <section class="food-text">
+                    <p class="food-head">Ultimate Overload<strong>...........................$20.00</strong></p>
+                    <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+                </section>
+            </section>
+
+            <section class="fooditem">
+                <section class="image">
+                    <img src="asset/mocktail.jpg" class="food-src">
+                </section>
+                <section class="food-text">
+                    <p class="food-head">Grilled Beef with potatoes<strong>.....$20.00</strong></p>
+                    <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+                </section>
+            </section>
+
+            <section class="fooditem">
+                <section class="image">
+                    <img src="asset/pine_shake.jpg" class="food-src">
+                </section>
+                <section class="food-text">
+                    <p class="food-head">Harm & Pineapple<strong>.....$20.00</strong></p>
+                    <p class="food-desc">A small river named Duden flows by their place and supplies</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    </div>
+
+    
+</body>
+</html>
