@@ -23,6 +23,7 @@
             font-family: 'Poppins', sans-serif;
             font-size: 16px;
             color: rgb(82, 82, 82);
+            overflow-x: hidden;
         }
         #image{
             background-image: url("asset/hero_image.jpg");
@@ -163,12 +164,19 @@
         @media (max-width: 600px){
            .model-image{
                height: 400px;
+               margin-bottom: -150px;
            }
-           .model-text{
-               text-align: center;
+           .mod-text{
+              margin: 0px;
+              padding: 15px;
            }
-           body{
+           .model-head{
+               font-size: x-large;
+           }
+
+           .fooditem{
                width: 300px;
+               padding: 5px 15px;
            }
         }
     </style>
@@ -176,9 +184,9 @@
 
 <body>
     <div id="top">
-        <section id="image">
+        <!-- <section id="image">
 
-        </section>
+        </section> -->
     </div>
     <!-- <div id="model"> -->
     <div id="row">
